@@ -1,0 +1,16 @@
+GET http://localhost:3000/api/lenders/naboo-bank HTTP/1.1
+Accept: application/json
+content-type: application/json
+
+###
+POST http://localhost:3000/api/lenders/bank-of-azeroth HTTP/1.1
+content-type: application/json
+
+{
+  "first_name": "Ann",
+  "last_name": "Heselden",
+  "gender": "female",
+  "email": "ann.heselden@divido.com",
+  "phone_number": "+447473468883",
+  "monthly_income": 50000
+}
